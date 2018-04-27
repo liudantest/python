@@ -44,7 +44,20 @@ def get_openid(env_url,access_token):
     # 拼接URL
     url = '%s/v1/app/followers' % env_url + method_get_param(req_data)
     resp, content = h.request(url, 'GET')
-    return json.loads(content)['followers']
+    return json.loads(content)
+
+
+def get_userinfo(env_url,access_token,openid):
+    h=httplib2.Http()
+    req_data={
+        'access_token':access_token,
+        'open_id':openid,
+    }
+
+    # 拼接URL
+    url='%s/team/member/openid/detail' % env_url + method_get_param(req_data)
+    resp, content = h.request(url, 'GET')
+    return json.loads(content)
 
 
 
