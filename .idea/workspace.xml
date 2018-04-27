@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d090cc34-be72-4900-bbf0-237dd78702d3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/bugTagsAddmember/addmember_Performance5.py" beforeDir="false" afterPath="$PROJECT_DIR$/bugTagsAddmember/addmember_Performance5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bugTagsAddmember/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/bugTagsAddmember/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bugTagsAddmember/test.xls" beforeDir="false" afterPath="$PROJECT_DIR$/bugTagsAddmember/test.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bugTagsAddmember/CreateBugTagsUserInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BugInfoAddmember.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BugInfoAddmember.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugTagsAddmember/qt_userinfo_toexcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/bugTagsAddmember/qt_userinfo_toexcel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +16,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/BugInfoAddmember$addmember_Performance5.coverage" NAME="addmember_Performance5 Coverage Results" MODIFIED="1524793319084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bugTagsAddmember" />
+    <SUITE FILE_PATH="coverage/python$CreateBugTagsUserInfo.coverage" NAME="CreateBugTagsUserInfo Coverage Results" MODIFIED="1524843855975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bugTagsAddmember" />
     <SUITE FILE_PATH="coverage/BugInfoAddmember$common.coverage" NAME="common Coverage Results" MODIFIED="1524792710561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bugTagsAddmember" />
     <SUITE FILE_PATH="coverage/BugInfoAddmember$write_into_excel.coverage" NAME="write_into_excel Coverage Results" MODIFIED="1524733985354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bugTagsAddmember" />
+    <SUITE FILE_PATH="coverage/BugInfoAddmember$addmember_Performance5.coverage" NAME="addmember_Performance5 Coverage Results" MODIFIED="1524793319084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bugTagsAddmember" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="qt_userinfo_toexcel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bugTagsAddmember/qt_userinfo_toexcel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="58" column="43" selection-start-line="57" selection-start-column="7" selection-end-line="58" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateBugTagsUserInfo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bugTagsAddmember/CreateBugTagsUserInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#23#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sheet.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/xlrd/sheet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="407" selection-start-line="407" selection-end-line="407" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/xlrd/book.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="695" selection-start-line="695" selection-end-line="695" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,6 +80,8 @@
         <option value="$PROJECT_DIR$/bugTagsAddmember/write_into_excel.py" />
         <option value="$PROJECT_DIR$/bugTagsAddmember/common.py" />
         <option value="$PROJECT_DIR$/bugTagsAddmember/addmember_Performance5.py" />
+        <option value="$PROJECT_DIR$/bugTagsAddmember/qt_userinfo_toexcel.py" />
+        <option value="$PROJECT_DIR$/bugTagsAddmember/CreateBugTagsUserInfo.py" />
       </list>
     </option>
   </component>
@@ -50,9 +95,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="width" value="1565" />
-    <option name="height" value="858" />
+    <option name="x" value="208" />
+    <option name="y" value="23" />
+    <option name="width" value="1389" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -64,12 +110,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="BugInfoAddmember" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BugInfoAddmember" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BugInfoAddmember" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BugInfoAddmember" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="bugTagsAddmember" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -87,6 +133,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bugTagsAddmember" />
       <recent name="E:\BugInfoAddmember\bugTagsAddmember" />
     </key>
   </component>
@@ -102,7 +149,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.addmember_Performance5">
+  <component name="RunManager" selected="Python.CreateBugTagsUserInfo">
+    <configuration name="CreateBugTagsUserInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BugInfoAddmember" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bugTagsAddmember" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bugTagsAddmember/CreateBugTagsUserInfo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="addmember_Performance5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BugInfoAddmember" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,9 +230,11 @@
       <item itemvalue="Python.addmember_Performance5" />
       <item itemvalue="Python.write_into_excel" />
       <item itemvalue="Python.common" />
+      <item itemvalue="Python.CreateBugTagsUserInfo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CreateBugTagsUserInfo" />
         <item itemvalue="Python.addmember_Performance5" />
         <item itemvalue="Python.common" />
         <item itemvalue="Python.write_into_excel" />
@@ -187,22 +255,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="0" width="1565" height="858" extended-state="0" />
+    <frame x="208" y="23" width="1389" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20427236" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38174275" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2440284" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1288697" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48547718" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -220,7 +289,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bugTagsAddmember/CreateBugTagsUserInfo.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -228,87 +304,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#20#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/urlencode/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/urlencode/urlencoder.py">
+    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/urlencode/urlencoder.py" />
+    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/xlwt/CompoundDoc.py" />
+    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/xlwt/Workbook.py" />
+    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/xlwt/Worksheet.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py" />
+    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/xlwt/Row.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/json/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/bugTagsAddmember/write_into_excel.py" />
+    <entry file="file://$PROJECT_DIR$/bugTagsAddmember/addmember_Performance5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/xlwt/CompoundDoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="261" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/xlwt/Workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="709" selection-start-line="709" selection-end-line="709" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/xlwt/Worksheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="1087" selection-start-line="1087" selection-end-line="1087" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="319" selection-start-line="319" selection-end-line="319" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/flaskstudy/venv/Lib/site-packages/xlwt/Row.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="295" selection-start-line="295" selection-end-line="295" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bugTagsAddmember/write_into_excel_2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bugTagsAddmember/write_into_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bugTagsAddmember/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="33" />
+        <state relative-caret-position="415">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bugTagsAddmember/addmember_Performance5.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/xlrd/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="172">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bugTagsAddmember/qt_userinfo_toexcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="58" column="43" selection-start-line="57" selection-start-column="7" selection-end-line="58" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/xlrd/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="695" selection-start-line="695" selection-end-line="695" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/xlrd/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="407" selection-start-line="407" selection-end-line="407" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bugTagsAddmember/CreateBugTagsUserInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#20#51#0" expanded="true" />
+            <element signature="e#23#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
