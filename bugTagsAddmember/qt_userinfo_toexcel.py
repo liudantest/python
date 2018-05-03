@@ -42,6 +42,7 @@ if __name__ == '__main__':
     sheet.write(0, 0, 'openids')
     sheet.write(0, 1, 'user_id')
     sheet.write(0,2,'qt_name')
+    sheet.write(0,3,'mobile')
     for openid in followers:
         print('openid：'+openid)
 
@@ -52,11 +53,14 @@ if __name__ == '__main__':
         usrinfo = common.get_userinfo(env_url, access_token, openid)
         print('username:'+usrinfo['name'])
         print('user_id:'+usrinfo['user_id'])
+        print ('mobile:'+usrinfo['mobile'])
 
         #将user_id写入excel
         sheet.write(i,1,usrinfo['user_id'])
         # 将username写入excel
         sheet.write(i,2,usrinfo['name'])
+        #将mobile写入excel
+        sheet.write(i,3,usrinfo['mobile'])
         i += 1
 
     workbook.save('bugTagsUserInfo.xls')
