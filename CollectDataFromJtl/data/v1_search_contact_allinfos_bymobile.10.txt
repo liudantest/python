@@ -1,0 +1,12 @@
+Writing log file to: /root/PerformaceTest/jmeter.log
+Creating summariser <summary>
+Created the tree successfully using /root/PerformaceTest/apache-jmeter-3.1/bin/jmx/v1_search_contact_allinfos_bymobile.jmx
+Starting the test @ Tue May 08 11:33:21 CST 2018 (1525750401437)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +     46 in 00:00:09 =    5.3/s Avg:  1177 Min:   241 Max:  2018 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary +    204 in 00:00:30 =    6.8/s Avg:  1463 Min:   226 Max:  2218 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary =    250 in 00:00:38 =    6.5/s Avg:  1410 Min:   226 Max:  2218 Err:     0 (0.00%)
+summary +    150 in 00:00:22 =    6.8/s Avg:  1517 Min:   330 Max:  3148 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+summary =    400 in 00:01:00 =    6.6/s Avg:  1450 Min:   226 Max:  3148 Err:     0 (0.00%)
+Tidying up ...    @ Tue May 08 11:34:22 CST 2018 (1525750462024)
+... end of run
