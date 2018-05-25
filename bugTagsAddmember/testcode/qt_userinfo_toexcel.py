@@ -40,9 +40,9 @@ if __name__ == '__main__':
     i=1
     workbook = xlwt.Workbook()
     sheet = workbook.add_sheet("Sheet1")
-    sheet.write(0, 0, 'openid')
-    sheet.write(0, 1, 'qt_userid')
-    sheet.write(0,2,'qt_username')
+    sheet.write(0, 0, 'openids')
+    sheet.write(0, 1, 'user_id')
+    sheet.write(0,2,'qt_name')
     sheet.write(0,3,'mobile')
     for openid in followers:
         print('openid：'+openid)
